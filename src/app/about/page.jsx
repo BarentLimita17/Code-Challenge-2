@@ -61,14 +61,14 @@ export default function About() {
                             </div>
                         </div>
                         <div className="relative col-span-1 w-full h-full flex justify-center items-center">
-                            <div className="h-full w-1 bg-indigo-300"></div>
+                            <div className="h-full w-1 bg-[#f3f3f3]"></div>
                             <div className="absolute w-6 h-6 rounded-full bg-black opacity-80 z-10 text-white text-center">1</div>
                         </div>
                         <div className="col-span-4 w-full h-full"></div>
                         {/* STACK 2 */}
                         <div className="col-span-4 w-full h-full"></div>
                         <div className="relative col-span-1 w-full h-full flex justify-center items-center">
-                            <div className="h-full w-1 bg-indigo-300"></div>
+                            <div className="h-full w-1 bg-[#f3f3f3]"></div>
                             <div className="absolute w-6 h-6 rounded-full bg-black opacity-80 z-10 text-white text-center">2</div>
                         </div>
                         <div className="col-span-4 w-full h-full">
@@ -85,14 +85,14 @@ export default function About() {
                             </div>
                         </div>
                         <div className="relative col-span-1 w-full h-full flex justify-center items-center">
-                            <div className="h-full w-1 bg-indigo-300"></div>
+                            <div className="h-full w-1 bg-[#f3f3f3]"></div>
                             <div className="absolute w-6 h-6 rounded-full bg-black opacity-80 z-10 text-white text-center">3</div>
                         </div>
                         <div className="col-span-4 w-full h-full"></div>
                         {/* STACK 4 */}
                         <div className="col-span-4 w-full h-full"></div>
                         <div className="relative col-span-1 w-full h-full flex justify-center items-center">
-                            <div className="h-full w-1 bg-indigo-300"></div>
+                            <div className="h-full w-1 bg-[#f3f3f3]"></div>
                             <div className="absolute w-6 h-6 rounded-full bg-black opacity-80 z-10 text-white text-center">4</div>
                         </div>
                         <div className="col-span-4 w-full h-full">
@@ -109,14 +109,14 @@ export default function About() {
                             </div>
                         </div>
                         <div className="relative col-span-1 w-full h-full flex justify-center items-center">
-                            <div className="h-full w-1 bg-indigo-300"></div>
+                            <div className="h-full w-1 bg-[#f3f3f3]"></div>
                             <div className="absolute w-6 h-6 rounded-full bg-black opacity-80 z-10 text-white text-center">5</div>
                         </div>
                         <div className="col-span-4 w-full h-full"></div>
                         {/* STACK 6 */}
                         <div className="col-span-4 w-full h-full"></div>
                         <div className="relative col-span-1 w-full h-full flex justify-center items-center">
-                            <div className="h-full w-1 bg-indigo-300"></div>
+                            <div className="h-full w-1 bg-[#f3f3f3]"></div>
                             <div className="absolute w-6 h-6 rounded-full bg-black opacity-80 z-10 text-white text-center">6</div>
                         </div>
                         <div className="col-span-4 w-full h-full">
@@ -133,14 +133,14 @@ export default function About() {
                             </div>
                         </div>
                         <div className="relative col-span-1 w-full h-full flex justify-center items-center">
-                            <div className="h-full w-1 bg-indigo-300"></div>
+                            <div className="h-full w-1 bg-[#f3f3f3]"></div>
                             <div className="absolute w-6 h-6 rounded-full bg-black opacity-80 z-10 text-white text-center">7</div>
                         </div>
                         <div className="col-span-4 w-full h-full"></div>
                         {/* STACK 8 */}
                         <div className="col-span-4 w-full h-full"></div>
                         <div className="relative col-span-1 w-full h-full flex justify-center items-center">
-                            <div className="h-full w-1 bg-indigo-300"></div>
+                            <div className="h-full w-1 bg-[#f3f3f3]"></div>
                             <div className="absolute w-6 h-6 rounded-full bg-black opacity-80 z-10 text-white text-center">8</div>
                         </div>
                         <div className="col-span-4 w-full h-full">
