@@ -34,8 +34,8 @@ export default function Home() {
             {/* PRODUCT 1 */}
             <div className="group relative items-center justify-center overflow-hidden hover:shadow-xl hover:shadow-black/30 transition-shadow">
               <div className="h-[175px] md:h-[384px] md:w-[288px]">
-                <Image loading="lazy"
-                  src="/home/bg-product1.jpeg" alt="Product1 image" className="h-full w-full object-cover group-hover:rotate-[10deg] group-hover:scale-125 transition-transform duration-1000" sizes="100vw" width={0} height={0} style={{ width: '100%', height: '100%' }}
+                <Image
+                  src="/home/bg-product1.jpeg" priority alt="Product1 image" className="h-full w-full object-cover group-hover:rotate-[10deg] group-hover:scale-125 transition-transform duration-1000" sizes="100vw" width={0} height={0} style={{ width: '100%', height: '100%' }}
                 />
               </div>
               <div className="absolute inset-0 bg-gradient-to-b from-transparent via-transparent to-black group-hover:from-black/70 group-hover:via-black/60 group-hover:to-black/70"></div>
