@@ -12,7 +12,7 @@ export default function Home() {
   return (
     <div className="">
       {/* DIV HERO SECTION */}
-      <div className="flex flex-col items-center w-[100%] h-auto bg-[url(/home/bg-home-top.jpg)] bg-cover">
+      <div className="flex flex-col items-center w-[100%] h-auto bg-[url(/home/bg-home-top.webp)] bg-cover">
         <div className='flex flex-wrap text-[16px] md:text-[30px] text-center w-[100%] md:w-[60%] text-white mt-[30%] md:mt-[15%]'>
           Our vision is to be an agile enterprise that answers to market needs and demands in diversified industries.
         </div>
@@ -49,8 +49,8 @@ export default function Home() {
             {/* PRODUCT 2 */}
             <div className="group relative items-center justify-center overflow-hidden hover:shadow-xl hover:shadow-black/30 transition-shadow">
               <div className="h-[175px] md:h-[384px] md:w-[288px]">
-                <Image loading="lazy"
-                  src="/home/bg-product2.jpg" alt="Product2 image" className="h-full w-full object-cover group-hover:rotate-[10deg] group-hover:scale-125 transition-transform duration-1000" sizes="100vw" width={0} height={0} style={{ width: '100%', height: '100%' }}
+                <Image
+                  src="/home/bg-product2.jpg" priority alt="Product2 image" className="h-full w-full object-cover group-hover:rotate-[10deg] group-hover:scale-125 transition-transform duration-1000" sizes="100vw" width={0} height={0} style={{ width: '100%', height: '100%' }}
                 />
               </div>
               <div className="absolute inset-0 bg-gradient-to-b from-transparent via-transparent to-black group-hover:from-black/70 group-hover:via-black/60 group-hover:to-black/70"></div>
@@ -61,11 +61,11 @@ export default function Home() {
                 </div>
               </div>
             </div>
-            {/* PRODUCT 2 */}
+            {/* PRODUCT 3 */}
             <div className="group relative items-center justify-center overflow-hidden hover:shadow-xl hover:shadow-black/30 transition-shadow">
               <div className="h-[175px] md:h-[384px] md:w-[288px]">
-                <Image loading="lazy"
-                  src="/home/bg-product3.jpg" alt="Product3 image" className="h-full w-full object-cover group-hover:rotate-[10deg] group-hover:scale-125 transition-transform duration-1000" sizes="100vw" width={0} height={0} style={{ width: '100%', height: '100%' }}
+                <Image
+                  src="/home/bg-product3.jpg" priority alt="Product3 image" className="h-full w-full object-cover group-hover:rotate-[10deg] group-hover:scale-125 transition-transform duration-1000" sizes="100vw" width={0} height={0} style={{ width: '100%', height: '100%' }}
                 />
               </div>
               <div className="absolute inset-0 bg-gradient-to-b from-transparent via-transparent to-black group-hover:from-black/70 group-hover:via-black/60 group-hover:to-black/70"></div>
@@ -78,15 +78,14 @@ export default function Home() {
             </div>
           </div>
         </div>
-        <div className="flex flex-wrap justify-center items-center gap-5 text-white text-center text-xl w-full h-auto mb-[5%]">
-          More details about our products
-          <Link href="/products">
-            <LearnMore />
+        <div className="flex flex-wrap justify-center items-center text-white text-center text-xl w-full h-auto mb-[5%]">
+          <Link className="gap-2 md:gap-5 flex flex-wrap justify-center items-center" href="/products">
+            More details about our products<LearnMore />
           </Link>
         </div>
       </div>
       {/* DIV QUOTE */}
-      <div className="flex flex-col justify-center items-center w-[100%] h-[490px] bg-[url(/home/bg-quote.jpg)]" >
+      <div className="flex flex-col justify-center items-center w-[100%] h-[490px] bg-[url(/home/bg-quote.webp)]" >
         <Image loading="lazy"
           src="/home/icon-quote.png" alt="Quote icon" width={120} height={80} style={{ width: '100px', height: '100px' }}
         />
@@ -132,10 +131,8 @@ export default function Home() {
               <Link className="flex items-center gap-2" href="/teams">
                 <div className="flex items-center justify-start text-red-400 font-bold gap-2">
                   <FaArrowLeftLong /> More about Teams
-                  <Link href="/teams">
-                    <FaPeopleGroup size={40} className="text-[#f90334] hover:scale-125 hover:text-black duration-500" />
-                  </Link>
                 </div>
+                <FaPeopleGroup size={40} className="text-[#f90334] hover:scale-125 hover:text-black duration-500" />
               </Link>
             </div>
             At the heart of Accelist Aviation's success is its dedicated team of professionals, comprising industry experts, engineers, technicians, and customer service specialists. Fueled by passion and expertise, the team at Accelist works tirelessly to deliver cutting-edge solutions that drive efficiency, safety, and operational excellence for their clients.
