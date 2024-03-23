@@ -33,13 +33,13 @@ export default function Home() {
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5">
             {/* PRODUCT 1 */}
             <div className="group relative items-center justify-center overflow-hidden hover:shadow-xl hover:shadow-black/30 transition-shadow">
-              <div className="h-[175px] md:h-[384px] md:w-[288px]">
+              <div className="h-[175px] w-[175px] md:h-[384px] md:w-[288px]">
                 <Image
                   src="/home/bg-product1.webp" priority alt="Product1 image" className="h-full w-full object-cover group-hover:rotate-[10deg] group-hover:scale-125 transition-transform duration-1000" sizes="100vw" width={0} height={0} style={{ width: '100%', height: '100%' }}
                 />
               </div>
               <div className="absolute inset-0 bg-gradient-to-b from-transparent via-transparent to-black group-hover:from-black/70 group-hover:via-black/60 group-hover:to-black/70"></div>
-              <div className="absolute inset-0 flex flex-col items-center justify-center px-9 text-center translate-y-[45%] group-hover:translate-y-0 transition-all duration-500">
+              <div className="absolute inset-0 flex flex-col items-center justify-center px-9 text-center translate-y-[115%] md:translate-y-[45%] group-hover:translate-y-[105px] md:group-hover:translate-y-0 transition-all duration-500">
                 <div className="text-[20px] font-bold text-white">Ground Support Equipment</div>
                 <div className="text-italic text-white mb-3 opacity-0 group-hover:opacity-100 transition-opacity">
                   A complete set of mission-critical equipment
@@ -48,13 +48,13 @@ export default function Home() {
             </div>
             {/* PRODUCT 2 */}
             <div className="group relative items-center justify-center overflow-hidden hover:shadow-xl hover:shadow-black/30 transition-shadow">
-              <div className="h-[175px] md:h-[384px] md:w-[288px]">
+              <div className="h-[175px] w-[175px] md:h-[384px] md:w-[288px]">
                 <Image
                   src="/home/bg-product2.webp" priority alt="Product2 image" className="h-full w-full object-cover group-hover:rotate-[10deg] group-hover:scale-125 transition-transform duration-1000" sizes="100vw" width={0} height={0} style={{ width: '100%', height: '100%' }}
                 />
               </div>
               <div className="absolute inset-0 bg-gradient-to-b from-transparent via-transparent to-black group-hover:from-black/70 group-hover:via-black/60 group-hover:to-black/70"></div>
-              <div className="absolute inset-0 flex flex-col items-center justify-center px-9 text-center translate-y-[50%] group-hover:translate-y-0 transition-all duration-500">
+              <div className="absolute inset-0 flex flex-col items-center justify-center px-9 text-center translate-y-[110%] md:translate-y-[50%] group-hover:translate-y-[120px] md:group-hover:translate-y-0 transition-all duration-500">
                 <div className="text-[20px] font-bold text-white">Engineering Tools</div>
                 <div className="text-italic text-white mb-3 opacity-0 group-hover:opacity-100 transition-opacity">
                   Tools and equipment that are essential for maintenances
@@ -63,13 +63,13 @@ export default function Home() {
             </div>
             {/* PRODUCT 3 */}
             <div className="group relative items-center justify-center overflow-hidden hover:shadow-xl hover:shadow-black/30 transition-shadow">
-              <div className="h-[175px] md:h-[384px] md:w-[288px]">
+              <div className="h-[175px] w-[175px] md:h-[384px] md:w-[288px]">
                 <Image
                   src="/home/bg-product3.webp" priority alt="Product3 image" className="h-full w-full object-cover group-hover:rotate-[10deg] group-hover:scale-125 transition-transform duration-1000" sizes="100vw" width={0} height={0} style={{ width: '100%', height: '100%' }}
                 />
               </div>
               <div className="absolute inset-0 bg-gradient-to-b from-transparent via-transparent to-black group-hover:from-black/70 group-hover:via-black/60 group-hover:to-black/70"></div>
-              <div className="absolute inset-0 flex flex-col items-center justify-center px-9 text-center translate-y-[50%] group-hover:translate-y-0 transition-all duration-500">
+              <div className="absolute inset-0 flex flex-col items-center justify-center px-9 text-center translate-y-[140%] md:translate-y-[50%] group-hover:translate-y-[130px] md:group-hover:translate-y-0 transition-all duration-500">
                 <div className="text-[20px] font-bold text-white">Chemicals and Consumable Parts</div>
                 <div className="text-italic text-white mb-3 opacity-0 group-hover:opacity-100 transition-opacity">
                   Aircraft cleaning chemicals, Engine oil, Skydrol hydraulic fluid, and many more
