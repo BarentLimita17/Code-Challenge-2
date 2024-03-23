@@ -153,7 +153,7 @@ export default function About() {
                 </div>
             </div>
             {/* DIV KEY PEOPLE */}
-            <div className="h-auto bg-[#3d020f] flex flex-wrap justify-center border-[5px] border-[#f3f3f3] contrast-125">
+            <div className="h-auto bg-[#111111] flex flex-wrap justify-center border-[5px] border-[#f3f3f3] contrast-125">
                 <div className="text-center py-10 mx-[10%] md:mx-auto text-[30px] contrast-150">
                     <div className="text-white">
                         KEY PEOPLE
@@ -162,17 +162,17 @@ export default function About() {
                         </div>
                     </div>
                     <div className="flex flex-col md:flex-row max-w-5xl gap-8 group">
-                        <div className="bg-red-900 text-black hover:text-white hover:bg-black group-hover:scale-[0.85] hover:!scale-100 duration-500 cursor-pointer p-8 rounded-xl">
+                        <div className="bg-red-900 text-black hover:text-white hover:bg-[#56585d] group-hover:scale-[0.85] hover:!scale-100 duration-500 cursor-pointer p-8 rounded-xl">
                             <Image loading="lazy" className="mx-auto rounded-full" src='/about/Procurement.jpg' width={100} height={100} alt='head of precrument' />
                             <div className="uppercase text-xl font-bold text-white">Nathan Anderson - Head of Procurement</div>
                             <div className="text-sm leading-7 my-3 font-medium opacity-50 text-white">Manages the purchasing process, sourcing materials and services needed for operations at the best possible value while maintaining quality and reliability</div>
                         </div>
-                        <div className="bg-red-900 text-black hover:text-white hover:bg-black group-hover:scale-[0.85] hover:!scale-100 duration-500 cursor-pointer p-8 rounded-xl">
+                        <div className="bg-red-900 text-black hover:text-white hover:bg-[#56585d] group-hover:scale-[0.85] hover:!scale-100 duration-500 cursor-pointer p-8 rounded-xl">
                             <Image loading="lazy" className="mx-auto rounded-full" src='/about/QA.jpg' width={100} height={100} alt='QA' />
                             <div className="uppercase text-xl font-bold text-white">Isabella Garcia - Head of Quality Assurance</div>
                             <div className="text-sm leading-7 my-3 font-medium opacity-50 text-white">Oversees the quality of our products and services, ensuring they meet high standards and comply with regulations to maintain customer satisfaction and trust.</div>
                         </div>
-                        <div className="bg-red-900 text-black hover:text-white hover:bg-black group-hover:scale-[0.85] hover:!scale-100 duration-500 cursor-pointer p-8 rounded-xl">
+                        <div className="bg-red-900 text-black hover:text-white hover:bg-[#56585d] group-hover:scale-[0.85] hover:!scale-100 duration-500 cursor-pointer p-8 rounded-xl">
                             <Image loading="lazy" className="mx-auto rounded-full" src='/about/HR.jpg' width={100} height={100} alt='HR' />
                             <div className="uppercase text-xl font-bold text-white">Hanin Martinez - Head of Human Resources</div>
                             <div className="text-sm leading-7 my-3 font-medium opacity-50 text-white">Manages all aspects of employee relations, from recruitment and training to ensuring a positive work environment, supporting the growth and well-being of our staff.</div>
