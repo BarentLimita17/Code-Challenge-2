@@ -13,7 +13,7 @@ export default function Home() {
     <div className="">
       {/* DIV HERO SECTION */}
       <div className="flex flex-col items-center w-[100%] h-auto bg-[url(/home/bg-home-top.webp)] bg-cover">
-        <div className='flex flex-wrap text-[16px] md:text-[30px] text-center w-[100%] md:w-[60%] text-white mt-[30%] md:mt-[15%]'>
+        <div className='flex flex-wrap justify-center text-[16px] md:text-[30px] text-center w-[100%] md:w-[60%] text-white mt-[30%] md:mt-[15%]'>
           Our vision is to be an agile enterprise that answers to market needs and demands in diversified industries.
         </div>
         {/* <Image loading="lazy" src={"/"} */}
@@ -35,7 +35,7 @@ export default function Home() {
             <div className="group relative items-center justify-center overflow-hidden hover:shadow-xl hover:shadow-black/30 transition-shadow">
               <div className="h-[175px] md:h-[384px] md:w-[288px]">
                 <Image
-                  src="/home/bg-product1.jpeg" priority alt="Product1 image" className="h-full w-full object-cover group-hover:rotate-[10deg] group-hover:scale-125 transition-transform duration-1000" sizes="100vw" width={0} height={0} style={{ width: '100%', height: '100%' }}
+                  src="/home/bg-product1.webp" priority alt="Product1 image" className="h-full w-full object-cover group-hover:rotate-[10deg] group-hover:scale-125 transition-transform duration-1000" sizes="100vw" width={0} height={0} style={{ width: '100%', height: '100%' }}
                 />
               </div>
               <div className="absolute inset-0 bg-gradient-to-b from-transparent via-transparent to-black group-hover:from-black/70 group-hover:via-black/60 group-hover:to-black/70"></div>
@@ -50,7 +50,7 @@ export default function Home() {
             <div className="group relative items-center justify-center overflow-hidden hover:shadow-xl hover:shadow-black/30 transition-shadow">
               <div className="h-[175px] md:h-[384px] md:w-[288px]">
                 <Image
-                  src="/home/bg-product2.jpg" priority alt="Product2 image" className="h-full w-full object-cover group-hover:rotate-[10deg] group-hover:scale-125 transition-transform duration-1000" sizes="100vw" width={0} height={0} style={{ width: '100%', height: '100%' }}
+                  src="/home/bg-product2.webp" priority alt="Product2 image" className="h-full w-full object-cover group-hover:rotate-[10deg] group-hover:scale-125 transition-transform duration-1000" sizes="100vw" width={0} height={0} style={{ width: '100%', height: '100%' }}
                 />
               </div>
               <div className="absolute inset-0 bg-gradient-to-b from-transparent via-transparent to-black group-hover:from-black/70 group-hover:via-black/60 group-hover:to-black/70"></div>
@@ -65,7 +65,7 @@ export default function Home() {
             <div className="group relative items-center justify-center overflow-hidden hover:shadow-xl hover:shadow-black/30 transition-shadow">
               <div className="h-[175px] md:h-[384px] md:w-[288px]">
                 <Image
-                  src="/home/bg-product3.jpg" priority alt="Product3 image" className="h-full w-full object-cover group-hover:rotate-[10deg] group-hover:scale-125 transition-transform duration-1000" sizes="100vw" width={0} height={0} style={{ width: '100%', height: '100%' }}
+                  src="/home/bg-product3.webp" priority alt="Product3 image" className="h-full w-full object-cover group-hover:rotate-[10deg] group-hover:scale-125 transition-transform duration-1000" sizes="100vw" width={0} height={0} style={{ width: '100%', height: '100%' }}
                 />
               </div>
               <div className="absolute inset-0 bg-gradient-to-b from-transparent via-transparent to-black group-hover:from-black/70 group-hover:via-black/60 group-hover:to-black/70"></div>

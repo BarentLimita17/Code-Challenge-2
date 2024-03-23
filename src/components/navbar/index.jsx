@@ -6,7 +6,7 @@ import { usePathname } from 'next/navigation';
 export default function Navbar() {
     const pathname = usePathname()
     return (
-        <div className="xl:flex md:justify-center md:items-center bg-[#cac3c3] opacity-90 w-[950px] mx-[250px] fixed md:z-50 hidden" >
+        <div className="xl:flex md:justify-center md:items-center bg-transparent opacity-90 w-[100%] fixed md:z-50 hidden" >
             <div className="flex items-center bg-white h-[70px] w-[950px]">
                 <div className="flex justify-center items-center bg-[#f90334] w-[200px] h-[70px]">
                     <Link href="/">
