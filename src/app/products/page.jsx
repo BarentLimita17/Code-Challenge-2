@@ -8,7 +8,7 @@ export default function Products() {
     return (
         <div>
             {/* DIV BANNER */}
-            <div className="flex justify-center items-center w-[100%] h-[525px] bg-[url(/products/bg-product-top.jpg)]">
+            <div className="flex justify-center items-center w-[100%] h-[525px] bg-[url(/products/bg-product-top.webp)]">
                 <div className='flex flex-wrap text-center w-[960px] h-auto items-center text-[16px] md:text-[30px] text-white'>
                     Our products conform to the current year IATA AHM standards and to all related regulations; they also have been proven to be safe and reliable by worldwide ground handling companies and Aircraft MRO.
                 </div>

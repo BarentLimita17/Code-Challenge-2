@@ -4,7 +4,7 @@ export default function About() {
     return (
         <div>
             {/* DIV BANNER */}
-            <div className="flex justify-center items-center w-[100%] h-[525px] bg-[url(/about/bg-about-top.jpg)]">
+            <div className="flex justify-center items-center w-[100%] h-[525px] bg-[url(/about/bg-about-top.webp)]">
                 <div className='flex flex-wrap text-center w-[960px] h-auto items-center text-[16px] md:text-[30px] text-white'>
                     Our core values, wide networks, and years of experiences form a solid foundation for aiding our customers to achieve Safety, Reliability, and Cost Efficiency.
                 </div>
