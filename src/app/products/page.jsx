@@ -226,27 +226,27 @@ export default function Products() {
                 </div >
             </div >
             {/* DIV TESTIMONIALS IN A NUTSHELL */}
-            <div className="h-auto bg-[#3d020f] flex flex-wrap justify-center">
+            <div className="h-auto bg-[#111111] flex flex-wrap justify-center contrast-125">
                 <div className="text-center py-10 mx-[10%] md:mx-auto">
-                    <div>Testimonials</div>
-                    <div className="text-[30px] w-[100%] mx-auto leading-normal font-bold mb-[5%]">
+                    <div className="text-white">Testimonials</div>
+                    <div className="text-[30px] w-[100%] mx-auto leading-normal text-white font-bold mb-[5%]">
                         Read What Others Have to Say
                     </div>
                     <div className="flex flex-col md:flex-row max-w-5xl gap-8 group">
                         <div className="contrast-150 bg-white/10 group-hover:blur-sm hover:!blur-none group-hover:scale-[0.85] hover:!scale-100 duration-500 cursor-pointer p-8 rounded-xl">
                             <Image loading="lazy" className="mx-auto rounded-full" src='/products/testimonee1.jpg' width={100} height={100} alt='testimonee1' />
                             <div className="uppercase text-xl font-bold text-white">Captain James, Chief Pilot at SkyRise Airlines</div>
-                            <div className="text-sm leading-7 my-3 text-white opacity-50">"Accelist's ground support equipment ensures efficient operations. Their commitment to quality solidifies them as our trusted partner."</div>
+                            <div className="text-sm leading-7 my-3 font-medium text-white opacity-50">"Accelist's ground support equipment ensures efficient operations. Their commitment to quality solidifies them as our trusted partner."</div>
                         </div>
                         <div className="contrast-150 bg-white/10 group-hover:blur-sm hover:!blur-none group-hover:scale-[0.85] hover:!scale-100 duration-500 cursor-pointer p-8 rounded-xl">
                             <Image loading="lazy" className="mx-auto rounded-full" src='/products/testimonee3.jpg' width={100} height={100} alt='testimonee1' />
                             <div className="uppercase text-xl font-bold text-white">Maria, Lead Maintenance Engineer at AeroTech Solutions</div>
-                            <div className="text-sm leading-7 my-3 text-white opacity-50">Accelist Aviation's precision-engineered tools meet industry standards with reliability, elevating our maintenance procedures to new heights."</div>
+                            <div className="text-sm leading-7 my-3 font-medium text-white opacity-50">"Accelist Aviation's precision-engineered tools meet industry standards with reliability, elevating our maintenance procedures to new heights."</div>
                         </div>
                         <div className="contrast-150 bg-white/10 group-hover:blur-sm hover:!blur-none group-hover:scale-[0.85] hover:!scale-100 duration-500 cursor-pointer p-8 rounded-xl">
                             <Image loading="lazy" className="mx-auto rounded-full" src='/products/testimonee2.jpg' width={100} height={100} alt='testimonee1' />
                             <div className="uppercase text-xl font-bold text-white">Ahmed, Maintenance Supervisor at GlobalJet Services</div>
-                            <div className="text-sm leading-7 my-3 text-white opacity-50">"Accelist Aviation's chemicals and parts consistently deliver quality and reliability, maintaining peak performance and safety across our fleet."</div>
+                            <div className="text-sm leading-7 my-3 font-medium text-white opacity-50">"Accelist Aviation's chemicals and parts consistently deliver quality and reliability, maintaining peak performance and safety across our fleet."</div>
                         </div>
                     </div>
                 </div>
