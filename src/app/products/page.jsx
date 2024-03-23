@@ -233,20 +233,20 @@ export default function Products() {
                         Read What Others Have to Say
                     </div>
                     <div className="flex flex-col md:flex-row max-w-5xl gap-8 group">
-                        <div className="bg-white/10 group-hover:blur-sm hover:!blur-none group-hover:scale-[0.85] hover:!scale-100 duration-500 cursor-pointer p-8 rounded-xl">
+                        <div className="contrast-150 bg-white/10 group-hover:blur-sm hover:!blur-none group-hover:scale-[0.85] hover:!scale-100 duration-500 cursor-pointer p-8 rounded-xl">
                             <Image loading="lazy" className="mx-auto rounded-full" src='/products/testimonee1.jpg' width={100} height={100} alt='testimonee1' />
-                            <div className="uppercase text-xl font-bold">Captain James, Chief Pilot at SkyRise Airlines</div>
-                            <div className="text-sm leading-7 my-3 font-light opacity-50">"Accelist's ground support equipment ensures efficient operations. Their commitment to quality solidifies them as our trusted partner."</div>
+                            <div className="uppercase text-xl font-bold text-white">Captain James, Chief Pilot at SkyRise Airlines</div>
+                            <div className="text-sm leading-7 my-3 text-white opacity-50">"Accelist's ground support equipment ensures efficient operations. Their commitment to quality solidifies them as our trusted partner."</div>
                         </div>
-                        <div className="bg-white/10 group-hover:blur-sm hover:!blur-none group-hover:scale-[0.85] hover:!scale-100 duration-500 cursor-pointer p-8 rounded-xl">
+                        <div className="contrast-150 bg-white/10 group-hover:blur-sm hover:!blur-none group-hover:scale-[0.85] hover:!scale-100 duration-500 cursor-pointer p-8 rounded-xl">
                             <Image loading="lazy" className="mx-auto rounded-full" src='/products/testimonee3.jpg' width={100} height={100} alt='testimonee1' />
-                            <div className="uppercase text-xl font-bold">Maria, Lead Maintenance Engineer at AeroTech Solutions</div>
-                            <div className="text-sm leading-7 my-3 font-light opacity-50">Accelist Aviation's precision-engineered tools meet industry standards with reliability, elevating our maintenance procedures to new heights."</div>
+                            <div className="uppercase text-xl font-bold text-white">Maria, Lead Maintenance Engineer at AeroTech Solutions</div>
+                            <div className="text-sm leading-7 my-3 text-white opacity-50">Accelist Aviation's precision-engineered tools meet industry standards with reliability, elevating our maintenance procedures to new heights."</div>
                         </div>
-                        <div className="bg-white/10 group-hover:blur-sm hover:!blur-none group-hover:scale-[0.85] hover:!scale-100 duration-500 cursor-pointer p-8 rounded-xl">
+                        <div className="contrast-150 bg-white/10 group-hover:blur-sm hover:!blur-none group-hover:scale-[0.85] hover:!scale-100 duration-500 cursor-pointer p-8 rounded-xl">
                             <Image loading="lazy" className="mx-auto rounded-full" src='/products/testimonee2.jpg' width={100} height={100} alt='testimonee1' />
-                            <div className="uppercase text-xl font-bold">Ahmed, Maintenance Supervisor at GlobalJet Services</div>
-                            <div className="text-sm leading-7 my-3 font-light opacity-50">"Accelist Aviation's chemicals and parts consistently deliver quality and reliability, maintaining peak performance and safety across our fleet."</div>
+                            <div className="uppercase text-xl font-bold text-white">Ahmed, Maintenance Supervisor at GlobalJet Services</div>
+                            <div className="text-sm leading-7 my-3 text-white opacity-50">"Accelist Aviation's chemicals and parts consistently deliver quality and reliability, maintaining peak performance and safety across our fleet."</div>
                         </div>
                     </div>
                 </div>
